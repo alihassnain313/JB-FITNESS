@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #0a0a0a;
+    color: #ffffff;
+  }
+
+  h1, h2, h3, .font-heading {
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 0.02em;
+  }
+
+  .font-display {
+    font-family: 'Chakra Petch', sans-serif;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FF4D00;
+}
+
+/* Professional Polish accent glows & backgrounds */
+.orange-glow {
+  box-shadow: 0 0 35px -5px rgba(255, 77, 0, 0.4);
+}
+
+.bg-polish-dark {
+  background-color: #0a0a0a;
+}
+
+.bg-polish-card {
+  background-color: #0f0f0f;
+}
+
+.bg-polish-card-hover:hover {
+  background-color: #151515;
+}
+
+.border-polish {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.border-polish-orange {
+  border-color: rgba(255, 77, 0, 0.3);
+}
+

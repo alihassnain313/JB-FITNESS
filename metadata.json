@@ -1,0 +1,7 @@
+{
+  "name": "JB FITNESS GYM - Gwalior",
+  "description": "Official website for JB FITNESS GYM in City Center, Gwalior. Premium training facility for strength, weight training, cardio, and functional fitness.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
